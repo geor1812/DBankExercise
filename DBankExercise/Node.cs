@@ -6,11 +6,9 @@
         private Node child1;
         private Node child2;
 
-        public Node(int value, Node child1, Node child2)
+        public Node(int value)
         {
             this.value = value;
-            this.child1 = child1;
-            this.child2 = child2;
         }
 
         //Getters and Setters
