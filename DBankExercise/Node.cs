@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DBankExercise
+﻿namespace DBankExercise
 {
     class Node
     {
@@ -27,7 +23,7 @@ namespace DBankExercise
         public Node Child1
         {
             get { return child1; }
-            set { child1 = value}
+            set { child1 = value; }
         }
 
         public Node Child2

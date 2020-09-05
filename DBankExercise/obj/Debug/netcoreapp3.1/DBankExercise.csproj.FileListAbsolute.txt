@@ -1,0 +1,13 @@
+C:\Users\George\Documents\Programming Projects\C#\DBankExercise\DBankExercise\obj\Debug\netcoreapp3.1\DBankExercise.csprojAssemblyReference.cache
+C:\Users\George\Documents\Programming Projects\C#\DBankExercise\DBankExercise\obj\Debug\netcoreapp3.1\DBankExercise.AssemblyInfoInputs.cache
+C:\Users\George\Documents\Programming Projects\C#\DBankExercise\DBankExercise\obj\Debug\netcoreapp3.1\DBankExercise.AssemblyInfo.cs
+C:\Users\George\Documents\Programming Projects\C#\DBankExercise\DBankExercise\obj\Debug\netcoreapp3.1\DBankExercise.csproj.CoreCompileInputs.cache
+C:\Users\George\Documents\Programming Projects\C#\DBankExercise\DBankExercise\bin\Debug\netcoreapp3.1\DBankExercise.exe
+C:\Users\George\Documents\Programming Projects\C#\DBankExercise\DBankExercise\bin\Debug\netcoreapp3.1\DBankExercise.deps.json
+C:\Users\George\Documents\Programming Projects\C#\DBankExercise\DBankExercise\bin\Debug\netcoreapp3.1\DBankExercise.runtimeconfig.json
+C:\Users\George\Documents\Programming Projects\C#\DBankExercise\DBankExercise\bin\Debug\netcoreapp3.1\DBankExercise.runtimeconfig.dev.json
+C:\Users\George\Documents\Programming Projects\C#\DBankExercise\DBankExercise\bin\Debug\netcoreapp3.1\DBankExercise.dll
+C:\Users\George\Documents\Programming Projects\C#\DBankExercise\DBankExercise\bin\Debug\netcoreapp3.1\DBankExercise.pdb
+C:\Users\George\Documents\Programming Projects\C#\DBankExercise\DBankExercise\obj\Debug\netcoreapp3.1\DBankExercise.dll
+C:\Users\George\Documents\Programming Projects\C#\DBankExercise\DBankExercise\obj\Debug\netcoreapp3.1\DBankExercise.pdb
+C:\Users\George\Documents\Programming Projects\C#\DBankExercise\DBankExercise\obj\Debug\netcoreapp3.1\DBankExercise.genruntimeconfig.cache
