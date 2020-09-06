@@ -10,6 +10,7 @@ namespace DBankExercise
         {
             Graph graph = new Graph();
             readFromFile(graph);
+            graph.solve();
         }
 
         public static void readFromFile(Graph graph)
@@ -35,37 +36,18 @@ namespace DBankExercise
                         graph.TopNode = currentNode;
                     } else
                     {
-                        /* 
-                         * Adding the current node as a child.
-                         * Filtering out dead-end paths by storing only compatible child nodes aka even-odd pairs
-                         */
-                        if ((j < parentList.Count) && (parentList[j].Value % 2 != currentNode.Value % 2))
+                        //Adding the current node as a child
+                        if (j < parentList.Count)
                         {
                             parentList[j].Child1 = currentNode;
                         }
-                        if ((j > 0) && (parentList[j - 1].Value % 2 != currentNode.Value % 2))
+                        if (j > 0)
                         {
                             parentList[j - 1].Child2 = currentNode;
                         }    
                                
                     }
                 }
-
-                /*
-                Testing
-                foreach(Node n in parentList)
-                {
-                    Console.Write("[{0},{1},{2}] ", n.Value, n.Child1, n.Child2);
-                }
-                Console.WriteLine();
-                if(i == lines.Length - 1)
-                {
-                    foreach (Node n in childList)
-                    {
-                        Console.Write("[{0},{1},{2}] ", n.Value, n.Child1, n.Child2);
-                    }
-                }
-                */
 
                 //The child list becomes the parent list
                 parentList.Clear();
