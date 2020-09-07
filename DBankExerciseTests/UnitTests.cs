@@ -57,7 +57,12 @@ namespace DBankExerciseTests
             testGraph.readFromFile("test2.txt");
             testGraph.solve();
 
-            Assert.AreEqual(14, Graph.pathToValue(testGraph.FinalPath));
+            List<int> expectedPath = new List<int>();
+            expectedPath.Add(1);
+            expectedPath.Add(2);
+            expectedPath.Add(11);
+
+            CollectionAssert.AreEqual(expectedPath, testGraph.FinalPath);
         }
 
 

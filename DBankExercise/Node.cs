@@ -1,4 +1,9 @@
-﻿using System.Collections.Generic;
+﻿/**
+ * Models a node of a pyramid graph, which has a maximum of two children
+ * Each node contains a value and pointers to the child nodes
+ **/
+
+using System.Collections.Generic;
 
 namespace DBankExercise
 {

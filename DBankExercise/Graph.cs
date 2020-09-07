@@ -1,4 +1,10 @@
-﻿using System;
+﻿/**
+ * This class models a pyramid directed graph
+ * Since every node contains pointers to their children, only the top node is stored
+ * The finalPath field contains the path which results in the maximum sum
+ **/
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 
