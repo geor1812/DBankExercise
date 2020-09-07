@@ -2,7 +2,7 @@
 
 namespace DBankExercise
 {
-    class Node
+    public class Node
     {
         private int value;
         private Node child1;
@@ -32,6 +32,10 @@ namespace DBankExercise
             set { child2 = value; }
         }
 
+        /**
+         * Recursive method used for traversing all possible paths to the bottom of the graph
+         * When the bottom is reached the final path is updated
+         **/
         public void traverse(List<int> currentPath, List<int> finalPath)
         {
             if(child1 != null && this.Value % 2 != child1.Value % 2)
@@ -48,6 +52,7 @@ namespace DBankExercise
                 currentPath.RemoveAt(currentPath.Count - 1);
             }
 
+            //Bottom of the graph is reached
             if(child1 == null && child2 == null)
             {
                 if(Graph.pathToValue(currentPath) > Graph.pathToValue(finalPath))
