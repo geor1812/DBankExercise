@@ -50,6 +50,16 @@ namespace DBankExerciseTests
             Assert.AreEqual(147, Graph.pathToValue(path));
         }
 
+        [TestMethod]
+        public void Should_Have_Correct_FinalPath()
+        {
+            Graph testGraph = new Graph();
+            testGraph.readFromFile("test2.txt");
+            testGraph.solve();
+
+            Assert.AreEqual(14, Graph.pathToValue(testGraph.FinalPath));
+        }
+
 
     }
 }
