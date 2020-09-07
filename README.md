@@ -1,3 +1,4 @@
+# Pyramid Challenge
 This repository contains my solution to the coding exercise I received as part of the application process for a back-end .Net Software Engineering position.
 
 ### Implementation
